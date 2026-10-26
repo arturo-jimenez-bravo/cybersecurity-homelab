@@ -73,3 +73,40 @@ Detailed documentation for this project will include:
 Kali Linux ARM64 is installed and successfully booting into the Xfce graphical desktop through UTM.
 
 The next step is to preserve the installation documentation and screenshots before beginning post-install configuration and cybersecurity lab work.
+
+## Visual Documentation
+
+### Guided Partitioning
+
+The Kali installer was configured to use the complete UTM virtual disk.
+
+![Guided Partitioning](./01-guided-partitioning.jpg)
+
+### Virtual Disk Selection
+
+The installer detected the 21.5 GB VirtIO virtual disk provided by UTM.
+
+![Virtual Disk Selection](./02-virtual-disk-selection.jpg)
+
+### Xfce Software Selection
+
+Xfce was retained as the desktop environment. GNOME and KDE Plasma were not selected.
+
+![Xfce Software Selection](./03-xfce-software-selection.jpg)
+
+### Installation Complete
+
+Kali confirmed that installation to the virtual disk completed successfully.
+
+![Installation Complete](./04-installation-complete.jpg)
+
+### Final Result
+
+Kali Linux ARM64 successfully booted into the Xfce graphical desktop through UTM.
+
+![Kali Xfce Desktop](./05-kali-xfce-desktop.jpg)
+
+## Project Documentation
+
+- [Complete installation process](installation.md)
+- [Blank-screen troubleshooting case study](troubleshooting.md)
